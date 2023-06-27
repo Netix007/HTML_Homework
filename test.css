@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.center {
+    padding-left: calc(50% - 800px);
+    padding-right: calc(50% - 800px);
+}
+
+.top__header {
+    background: #222222;
+}
+
+.header__menu {
+    position: relative;
+    padding: 18px 240px 19px 231px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 859px;
+}
+
+.block__logo__search {
+    display: flex;
+    align-items: flex-end;
+    gap: 41px;
+}
+
+.block__buttons__right {
+    display: flex;
+    align-items: flex-end;
+    gap: 33px;
+}
+
+.button__menu {
+    position: relative;
+}
+
+/* всплывающее меню */
+.navig {
+    top: 47px;
+    left: 127px;
+    width: 232px;
+    margin-left: 32px;
+    display: none;
+    position: absolute;
+    text-align: left;
+    background: white;
+}
+
+.navig__menu {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 32px;
+    
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    list-style-type: none;
+}
+
+.nav__title { 
+    padding-bottom: 4px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+}
+
+.nav__category {
+    padding-top: 20px;
+    padding-bottom: 12px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #F16D7F;
+}
+
+.nav__names {
+    padding-left: 21px;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+
+.nav__name a{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+    white-space: nowrap;
+}
+
+.menu__logo:hover ~ .navig {
+    display: flex;
+}
+
+/* личный кабинет и корзина */
+
+
+
+.header__menu button {
+    background: #222222;
+    border: 0;
+}
+
+.button__cart::before {
+    top: 15px;
+    left: 1350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: '5';
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    position: absolute;
+    height: 19px;
+    width: 19px;
+    text-align: center;
+    background-color: #F16D7F;
+    color: white;
+    border-radius: 50%;
+}
