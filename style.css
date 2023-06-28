@@ -1067,11 +1067,11 @@ a {
     }
 
     .top_bottom {
-        padding-top: 64px;
+        padding-top: 60px;
         padding-bottom: 64px;
         display: grid;
         grid-template-columns: repeat(1, 343px);
-        grid-template-rows: 248px;
+        grid-template-rows: 247px;
         gap: 32px;
     }
 
@@ -1116,7 +1116,67 @@ a {
 
     .main_content_bottom {
         margin-top: 41px;
-        margin-bottom: 97px;
+        margin-bottom: 96px;
+    }
+
+    .footer-main-blocks {
+        padding-top: 64px;
+        height: 486px;
+        display: flex;
+        flex-direction: column;
+        gap: 59px;
+    }
+
+    .reviews {
+        padding-top: 0px;
+        align-items: center
+    }
+
+    .reviews img {
+        width: 96px;
+        padding-left: 0px;
+    }
+
+    .review-text {
+        width: 343px;
+        padding-top: 29px;
+        padding-left: 0px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    
+    .suscribe {
+        padding-top: 0px;
+        width: 345px;
+        align-items: center;
+    }
+
+    .suscribe-title {
+        padding-left: 0px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 167.2%;
+        text-align: center;
+        color: #222224;
+    }
+
+    .suscribe-text {
+        padding-left: 0px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+        color: #222224;
+    }
+
+    .email_button_send {
+        padding-top: 22px;
+        padding-left: 0px;
+        display: flex;
     }
 
     .footer-bottom-conteiner {
